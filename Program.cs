@@ -51,12 +51,12 @@
 
 			break;
 	} 
-    
+    //
 	
 	
 }
 
-static void Out1()
+static void Out1()//
 {
 	int[] array = { 5, 3, 4, 9, 7, 2, 1, 8, 6 };
 	BubbleSort(array, "Selection", 0);
@@ -66,7 +66,7 @@ static void Out1()
 	}
 	Console.WriteLine();
 }
-static void Out2()
+static void Out2()//
 {
 	int[] array = { 5, 3, 4, 9, 7, 2, 1, 8, 6 };
 	BubbleSort(array, "Selection", 1);
@@ -76,7 +76,7 @@ static void Out2()
 	}
 	Console.WriteLine();
 }
-static void Out3()
+static void Out3()//
 {
 	int[] array = { 5, 3, 4, 9, 7, 2, 1, 8, 6 };
 	BubbleSort(array, "Bubble", 0);
@@ -123,3 +123,4 @@ Out3();
 Out4();
 Out5();
 Out6();
+//checked
